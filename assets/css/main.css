@@ -3448,8 +3448,13 @@ input, select, textarea {
 
 /* Header */
 	.logo {
-		height: 8em;
+		height: 5em;
 		width: auto;
+	}
+	#header .logo-small {
+		height: 2em;
+		width: auto;
+		padding: .75em 1em 0 0;
 	}
 	#header {
 		-moz-transition: background-color 0.2s ease;
@@ -3490,9 +3495,11 @@ input, select, textarea {
 					#header h1 a {
 						font-size: 0.8em;
 					}
-
+					.logo {
+						margin-left: -.5em;
+					}
 				}
-
+				
 		#header nav {
 			height: inherit;
 			line-height: inherit;
